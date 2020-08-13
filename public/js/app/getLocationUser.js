@@ -33,7 +33,7 @@
         const lat = splitLocation[0];
         const lng = splitLocation[1];
         if(sessionStorage.getItem('adressUser') == null){
-            const apiKey = 'AIzaSyBcgzjLGxX_dCb6Un0YxS9ENoJbyZHjYoI';
+            const apiKey = 'APIKeY';
             const geocordinationAPI = `https://maps.googleapis.com/maps/api/geocode/json?latlng=${lat},${lng}&key=${apiKey}`;
             let adressUser =  document.querySelector('#adressUser');
             $.ajax({
