@@ -1,0 +1,43 @@
+.btn-app-primary{
+    background-color: $primary;
+    color: $white;
+    font-weight: 500;
+    &:hover{
+        background-color: transparent;
+        color: $primary;
+        border: 1px solid $primary;
+    }
+}
+.btn-app-secondary{
+    background-color: $cinza3;
+}
+.btn-app-success{
+    background-color: $green;
+    color: $white;
+    font-weight: 500;
+    &:hover{
+        background-color: transparent;
+        color: $green;
+        border: 1px solid $green;
+    }
+}
+.btn-app-danger{
+    background-color: $red;
+    color: $white;
+    font-weight: 500;
+    &:hover{
+        background-color: transparent;
+        color: $red;
+        border: 1px solid $red;
+    }
+}
+.btn-app-primary-outline{
+    background-color: transparent;
+    color: $primary;
+    border: 1px solid $primary;
+    font-weight: 500;
+    &:hover{
+        background-color: $primary;
+        color: $white;
+    }
+}

@@ -1,0 +1,56 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+}
+*, html{
+    margin: 0px;
+    padding: 0px;
+}
+p, h1, h2, h3, h4, h5, h6, a{
+    margin: 0px;
+}
+h1{
+    font-size: 18px;
+    color: $primary;
+}
+h2{
+    font-size: 18px;
+    color: $primary;
+}
+h4{
+    font-size: 22px;
+}
+h5{
+    font-size: 14px;
+}
+a{
+    font-size: 14px;
+    text-decoration: none !important;
+}
+p{
+    font-size: 16px;
+}
+.remove{
+    display: none;
+}
+.spacing{
+    margin-top: 100px;
+}
+.modal-backdrop{
+    background-color: #1C2E40 !important;
+}
+#modal-geolocation{
+    text-align: center;
+}
+select{
+    background-color: $cinza3 !important;
+}
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    z-index: 9;
+}
