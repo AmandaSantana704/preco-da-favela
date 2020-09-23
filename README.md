@@ -1,79 +1,140 @@
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
+     <h1 align="center">
+  <img alt="Repository size" src="https://precodafavela.com.br/images/logo-icon.png"/>
+  <img alt="Repository size" src="https://precodafavela.com.br/images/logo-text.png"/>
+      <!-- <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/banner.png" /> -->
+  </h1>
+  
+  <h4 align="center"> 
+    🚀 Preço da Favela - 🚧 Em desenvolvimento 🚧
+  </h4>
+  
+  <p align="center">
+   <a href="#-sobre-o-projeto">Sobre</a> •
+   <a href="#-funcionalidades">Funcionalidades</a> •
+   <a href="#-como-executar-o-projeto">Como executar</a> • 
+   <a href="#-tecnologias">Tecnologias</a> • 
+   <a href="#-autor">Autor</a> • 
+   <a href="#user-content--licença">Licença</a>
+  </p>
+  
+  
+  ## 💻 Sobre o projeto
+  
+  🏣 O Preço da Favela é um marketplace focado em pequenos empreendedores da comunidade. A plataforma 
+  tem o objetivo de ajudar os comerciantes da favela a vender mais, divulgando o seu negócio de forma fácil e
+  descomplicada.
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+  ---
+  
+  ## ⚙️ Funcionalidades
+  
+  - [x] Empresas podem se cadastrar na plataforma web enviando:
+    - [x] Imagem do seu comércio;
+    - [x] Nome da empresa, email, whatsapp e instagram;
+    - [x] Endereço, ponto de referência e localização atual;
+    - [x] Cadastro de produtos, com foto e valor;
+    - [x] Organizar produtos por seção.
 
-## About Laravel
+  - [x] Os usuários tem acesso a aplicação web, onde podem:
+    - [x] Entrar em contato com a empresa;
+    - [x] Comprar através do whatsapp ou instagram;
+    - [x] Pesquisar valores;
+    - [x] Filtrar por tipo de empresa ou produtos em promoção;
+    - [x] Encontrar localização da empresa;
+    - [x] Visualizar apenas empresas próximas, através da geolocalização.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+  
+  ---
+  
+  <!-- ## 🎨 Layout
+  
+  O layout da aplicação está disponível no Figma:
+ 
+  ### Mobile
+  
+  <p align="center">
+    <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/home-mobile.png" width="200px">
+  
+    <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/detalhes-mobile.svg" width="200px">
+  </p>
+  
+  ### Web
+  
+  <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+    <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/web.svg" width="400px">
+  
+    <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/sucesso-web.svg" width="400px">
+  </p>
+  
+  --- -->
+  
+  ## 🚀 Como executar o projeto
+  
+  O projeto foi desenvolvido em PHP utilizando o Laravel 7
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+  ### Pré-requisitos
+  
+  Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+  [Composer](https://getcomposer.org/), [MySQL](https://www.mysql.com/). 
+  Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+  
+  #### 🎲 Rodando a aplicação
+  
+  ```bash
+  
+  # Clone este repositório
+  $ git clone https://github.com/Ueslen-dev/preco-da-favela.git
+  
+  # Acesse a pasta do projeto no terminal/cmd
+  $ cd preco-da-favela
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+  # Dentro da pasta do projeto execute no seu terminal/cmd
+  $ composer install
+  
+  # Abra o arquivo .env.example e configure o banco de dados, depois altere o nome do arquivo para ".env"
+  $ .env.example
+  
+  # Execute as migrations no seu terminal/cmd
+  $ php artisan migrate
+  
+  # Execute a aplicação
+  $ php artisan serve
+  
+  # O servidor inciará na porta:8000 - acesse http://localhost:8000
+  
+  ```
+    
+  ---
+  
+  ## 🛠 Tecnologias
+  
+  As seguintes ferramentas foram usadas na construção do projeto:
+  
+  -   **[Laravel 7](https://laravel.com/)**
+  -   **[Jquery](https://jquery.com/)**
+  -   **[Bootstrap](https://getbootstrap.com/)**
+  -   **[OWL Carousel](https://owlcarousel2.github.io/OwlCarousel2/)**
+  -   **[Google API Geolocation](https://developers.google.com/maps/documentation/javascript/examples/map-geolocation)**
+  
+  > Veja o arquivo  [composer.json](https://github.com/Ueslen-dev/preco-da-favela/blob/master/composer.json)
 
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[British Software Development](https://www.britishsoftware.co)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- [UserInsights](https://userinsights.com)
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
-- [User10](https://user10.com)
-- [Soumettre.fr](https://soumettre.fr/)
-- [CodeBrisk](https://codebrisk.com)
-- [1Forge](https://1forge.com)
-- [TECPRESSO](https://tecpresso.co.jp/)
-- [Runtime Converter](http://runtimeconverter.com/)
-- [WebL'Agence](https://weblagence.com/)
-- [Invoice Ninja](https://www.invoiceninja.com)
-- [iMi digital](https://www.imi-digital.de/)
-- [Earthlink](https://www.earthlink.ro/)
-- [Steadfast Collective](https://steadfastcollective.com/)
-- [We Are The Robots Inc.](https://watr.mx/)
-- [Understand.io](https://www.understand.io/)
-- [Abdel Elrafa](https://abdelelrafa.com)
-- [Hyper Host](https://hyper.host)
-- [Appoly](https://www.appoly.co.uk)
-- [OP.GG](https://op.gg)
-- [云软科技](http://www.yunruan.ltd/)
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+  ---
+  
+  ## 🦸 Autor
+  
+  <a href="https://github.com/Ueslen-dev/">
+   <img style="border-radius: 50%;" src="https://avatars3.githubusercontent.com/u/65665108?s=460&u=b8962d1c17aab7ad75958aeb104afd712ceb6023&v=4" width="100px;" alt=""/>
+   <br />
+   <sub><b>Ueslen Santos</a> <a href="https://github.com/Ueslen-dev" title="Rocketseat">🚀</a>
+   <br />
+  
+  [![Linkedin Badge](https://img.shields.io/badge/-Ueslen-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/ueslen-santos/)](https://www.linkedin.com/in/ueslen-santos/) 
+  [![Gmail Badge](https://img.shields.io/badge/-ueslencriacao@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=ueslencriacao@gmail.com)](ueslencriacao@gmail.com)
+  
+  ---
+  
+  ## 📝 Licença
+  
+  Este projeto esta sobe a licença [MIT].
+  
+  Feito com ❤️ por Ueslen Santos 👋🏽 [Entre em contato!](ueslencriacao@gmail.com)
