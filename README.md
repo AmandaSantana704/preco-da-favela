@@ -1,8 +1,7 @@
-     <h1 align="center">
+  <h4 align="center">
   <img alt="Repository size" src="https://precodafavela.com.br/images/logo-icon.png"/>
   <img alt="Repository size" src="https://precodafavela.com.br/images/logo-text.png"/>
-      <!-- <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/banner.png" /> -->
-  </h1>
+  </h4>
   
   <h4 align="center"> 
     🚀 Preço da Favela - 🚧 Em desenvolvimento 🚧
